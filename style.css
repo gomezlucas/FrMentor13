@@ -212,10 +212,11 @@ body {
 
 /*Hero */
 .hero {
+  padding-bottom: 7rem;
   display: flex;
   flex-direction: row;
-  min-height: 100vh;
-}
+  
+ }
 
 .header-title {
   font-size: 4.5rem;
@@ -266,7 +267,7 @@ body {
 @media screen and (max-width: 950px) {
   .hero {
     flex-direction: column;
-    margin-bottom: 6rem;
+   
     text-align: center;
   }
 
